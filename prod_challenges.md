@@ -8,3 +8,16 @@ Therefore, it’s almost impossible for a developer to perform a debugging proce
 
 Under these circumstances, developers need to gather enough information to solve the problem directly from the running application (function in case of serverless). Therefore, a remote troubleshooting procedure is required. As mentioned earlier, production debugging can also be done remotely through a remote debugging process.
 
+
+### Why should you not use “Debug Mode” in Production?
+
+The answer is “performance”. Using Development mode, or enabling debugging on an eSpace in Production, adds debugging symbols to the compiled code. This greatly increasing its size (and therefore how much RAM it uses) as well as significantly slowing down its execution speed. You won’t notice the difference in a development or QA environment, but load hundreds or thousands or users against it and there will be a difference for sure.
+
+
+### Production challenges:
+- Security Concerns
+- Inconsistency in data
+- Compatability issues
+- Resource issues
+- Job failures
+- Hard to get real time data

@@ -2,16 +2,16 @@
 
 Application traces are detailed records of the actions performed by the application, and of messages about events that occurred during operation of the application.
 
-## Involves:
+### Involves:
 
 Specialized use of logging to record info about program's execution
 
 
-### used for:
+### Used for:
 
 - Debugging, diagnose common problems in S/W
 
-### used by:
+### Used by:
 
 - System administrators
 - Technical-support

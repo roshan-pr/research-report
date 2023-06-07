@@ -1,5 +1,6 @@
 # Security Concerns
 
+Once you’re generating trace data, you need to send it somewhere. Deploying tracing for your organization requires an understanding of where your software runs—for end users and their clients, as well as on servers—and how it’s operated. You’ll need to understand the security, privacy, and compliance implications of collecting and storing trace data. You may encounter trade-offs in overhead relating to how much data is kept, and how much is discarded through a process known as sampling.
 
 ## Logging sensitive information
 
