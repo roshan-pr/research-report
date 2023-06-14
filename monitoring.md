@@ -40,9 +40,9 @@ Teams spend a lot of time building test environments that perfectly replicate pr
 
 
 #### How these differences affect your testing:
-Traffic load with real user requests
+## Traffic load with real user requests
 Monitoring in production helps you measure how your application is performing during peak and low traffic hours. With web applications, slow response times can make new users and customers frustrated. This is a concern for QA, and generally it's near impossible to exactly replicate traffic load in test and staging environments.
-Latency with production databases
+## Latency with production databases
 Databases in production often contain more (or different) data than testing environments. Latency in a database can cause weird errors that may not have been caught pre-production. Seeding data in testing environments is always a good idea, but it's not the same as production data.
-Stub components in test environments
+## Stub components in test environments
 Many teams have stub components built-in to test certain parts of an application in isolation. This is especially true for large web applications that rely on external APIs and services. When these components are moved from test to production, there's a million little pieces between them that may behave differently than expected.
