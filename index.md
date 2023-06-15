@@ -1,8 +1,16 @@
 ## Index
 
 
-1. [Tracing](./tracing.md)
-2. [Debugging](./debugging.md)
+1. [Problem statement](./problem_statement.md)
+2. Tracing
+      - [About Tracing](./tracing.md)
+      - [Benefits](./tracing_benefits.md)
+3. Monitoring
+      - [About Monitoring](./monitoring.md)
+4. Debugging
+      - [About Debugging](./debugging.md)
       - [Approaches](./debugging_approaches.md)
-3. [Monitoring](./monitoring.md)
-4. [Security](./security_concerns.md)
+      - [Importance of debugging](./importamce_of_debugging.md)
+5. [Production challenges](./prod_challenges.md)
+6. [Security concerns](./security_concerns.md)
+7. [Tools]()

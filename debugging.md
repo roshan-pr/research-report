@@ -21,11 +21,29 @@ To file a bug, give a list of steps that reliably cause the bug, and state the d
 
 ### Steps involved in debugging are:
 
-- Problem identification and report preparation.
-- Assigning the report to the software engineer defect to verify that it is genuine.
-- Defect Analysis using modeling, documentation, finding and testing candidate flaws, etc.
-- Defect Resolution by making required changes to the system.
-- Validation of corrections.
+**Step 1: Identify the Error**
+
+This is the first stage of Debugging is identifying the actual Error in the code of the software.
+
+**Step 2: Find the error Location**
+
+Once the problem has been identified, you will need to thoroughly review the code several times to identify the precise location of the error. This stage, in general, focuses on locating the error rather than perceiving it.
+
+**Step 3: Analyze the error**
+
+The third step is error analysis, which is a bottom-up technique that starts with identifying the issue and then analyses the code. This stage helps in the understanding of the errors. error analysis has two major goals: reevaluating errors to identify existing bugs and proposing the uncertainty of incoming collateral damage in a fix.
+
+**Step 4: Prove the analysis**
+
+After examining the primary bugs, it is necessary to search for any additional issues that may show on the program. The fourth step is used to develop automated tests for such domains by integrating the test framework.
+
+**Step 5: Cover Lateral Damage**
+
+The fifth phase involves collecting all of the unit tests for the code that has to be modified. When you run these unit tests, they must pass.
+
+**Step 6: Fix & Validate**
+
+The final stage is fix and validation, which focuses on resolving defects before running all of the test scripts to determine if they pass.
 
 
 ### There are several common methods and techniques used in debugging, including:
