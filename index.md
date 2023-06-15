@@ -5,4 +5,5 @@
 2. [Debugging](./debugging.md)
       - [Approaches](./debugging_approaches.md)
 3. [Monitoring](./monitoring.md)
+      - [Advantages](./monitoring_advantages.md)
 4. [Security](./security_concerns.md)
