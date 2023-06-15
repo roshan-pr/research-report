@@ -7,6 +7,7 @@
       - [Benefits](./tracing_benefits.md)
 3. Monitoring
       - [About Monitoring](./monitoring.md)
+      - [Advantages](./monitoring_advantages.md)
 4. Debugging
       - [About Debugging](./debugging.md)
       - [Approaches](./debugging_approaches.md)
