@@ -21,15 +21,6 @@ Application performance monitoring is a process that ensures that a software app
 - Aligns with cloud-based ERPs’ continuous development and updates process.
 - Enhances the performance and stability of all your integrations.
 
-## Popular Tools for monitoring :-
-
-- Datadog
-- Newrelic
-- ManageEngine
-- AppDynamics
-- Dynatrace
-- IBM’s performance management tool
-
 —------------------------------------------------------------
 
 One of the biggest arguments for testing and monitoring in production is the fact that testing and production environments will always be different.
