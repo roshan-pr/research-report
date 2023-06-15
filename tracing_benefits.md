@@ -4,13 +4,13 @@ A typical monolithic application consists of a database layer, which is an appli
 
 So far so good...until you gradually **scale up the application** and its infrastructure as the traffic picks up or you add new features and make it a complex setup. With **added complexity**, you're almost guaranteed one or more services won’t work as expected or will have performance issues. So it becomes a nightmare to dig into various service logs, co-relate the incident times, and so on.
 
-`Even if you convert your monolithic application into various microservices, the need to crunch the logs to get insights into the microservices is still there.`
+> Even if you convert your monolithic application into various microservices, the need to crunch the logs to get insights into the microservices is still there.
 
 Until we know the exact problem and where it lies, it may cause longer downtimes and can affect the MTTR (mean time to recovery). Using a tracing tool can help a ton in such situations, and we are going to talk about this in detail below.
 
 **Tracing an application means logging or collecting required information when the application is executing.** A common tracing framework is integrated with each service or microservice so that they can publish their data to a centralized infrastructure.
 
-`This traced data can be used to visualize for debugging the application or measuring its performance, instead of analyzing various core dumps or stack traces.`
+> This traced data can be used to visualize for debugging the application or measuring its performance, instead of analyzing various core dumps or stack traces.
 
 Usually, the tracing tools will have a web-based Graphic User Interface(GUI), which helps you consume or visualize the traced data for reporting purposes, identifying abnormalities in applications behavior, etc.
 
