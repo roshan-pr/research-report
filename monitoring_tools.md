@@ -1,8 +1,8 @@
-# Prometheus
+# 1. Prometheus
 
 Prometheus is an open-source technology designed to provide monitoring and alerting functionality for cloud-native environments, including Kubernetes. It can collect and store metrics as time-series data, recording information with a timestamp. It can also collect and record labels, which are optional key-value pairs.
 
-### Key features of Prometheus include:
+## Key features of Prometheus include:
 
 - **Multidimensional data model** – Using time-series data, which is identified by metric name and key-value pairs.
 
@@ -41,3 +41,35 @@ Prometheus doesn’t usually monitor website status, but you can use a blackbox 
 
 **Cronjobs :**
 To check if a cronjob is running at the specified intervals, you can use the Push Gateway to display metrics to Prometheus through an HTTP endpoint. You can push the timestamp of the last successful job (i.e. a backup job) to the Gateway, and compare it with the current time in Prometheus. If the time exceeds the specified threshold, the monitor times out and triggers an alert.
+
+# 2. Grafana
+
+Grafana is an open-source visualization and analytics software. No matter where your data is stored, it can be queried, visualized, and explored. In plain English, it provides you with tools to turn your time-series database (TSDB) data into beautiful graphs and visualizations.
+
+Grafana shows teams and companies what their users really do, not just what they say they do. These are known as revealed behaviors. Users aren’t very adept at predicting their own futures. Having analytics allows tech teams to dig deeper than human-error-prone surveys and monitoring.
+
+> Grafana makes that data useful again by integrating all data sources into one single organized view
+
+## Features:
+
+The tools that teams actually use to uncover insights vary from organization to organization. The following are the most common (and useful) features they might expect from a data analytics/visualization tool like Grafana.
+
+Common Grafana features:
+
+- **Visualize:** Grafana has many visualization options to help you understand your data, from graphs to histograms, you have it all.
+
+- **Alerts:** Grafana lets you define thresholds visually and get notified via Slack, PagerDuty, and more
+
+- **Unify:** You can bring your data together to get a better context. Grafana supports dozens of databases natively.
+
+- **Open-Source:** It’s entirely open source. You can use Grafana Cloud or easily install it on any platform.
+
+- **Explore Logs:** Using label filters, you can quickly filter and search through the laundry list of logs.
+
+- **Display dashboards:** Visualize data with templated or custom reports. Create and **Share reports:**
+
+- **Create and Share reports:** Create and share information to your customers and stakeholders. This feature is not available in the open-source version. You can upgrade to avail it. 
+
+## Real-World Industry Use Cases of Grafana
+
+> Since its creation, Grafana became a powerful and versatile data visualization and monitoring tool, revolutionizing the way industries in a variety of sectors analyze and make sense of their data. Grafana dashboards are deployed in a wide range of industries, from IT and software development to e-commerce, healthcare and energy. Some of the world’s best-known companies such as Microsoft or Adobe use Grafana, as well as thousands of startups and small businesses around the world.
